@@ -14,9 +14,7 @@ header {
     padding: 0 calc(50vw - 770px)
 }
 
-section {
-    padding: 0 calc(50% - 770px);
-}
+
 
 .header-links {
     display: flex;
@@ -89,4 +87,63 @@ section {
     border-bottom: 5px solid #D9D9D9;
     border-radius: 383.5px;
 }
+.skills-section {
+    background: #EADED4;
+}
+.skills-title {
+    display: block;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    text-align: center;
+}
+.skills {
+    display: flex;
+    gap: 20px;
+}
 
+.skill {
+    background: #07203F;
+    width: 500px;
+    height: 500px;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
+.skill:nth-child(2) {
+    background: #D9AA90;
+}
+
+/*media*/
+@media (min-width: 575.98px){
+    section, header, footer {
+        padding: 0 calc(50vw - 270px);
+    }
+}
+
+@media (min-width: 767.98px){
+    section, header, footer {
+        padding: 0 calc(50vw - 360px);
+    }
+}
+
+@media (min-width: 991.98px) {
+    section, header, footer {
+        padding: 0 calc(50vw - 480px);
+    }
+}
+
+@media (min-width: 1199.98px){
+    section, header, footer {
+        padding: 0 calc(50vw - 770px);
+    }
+}
